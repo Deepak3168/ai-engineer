@@ -1,0 +1,29 @@
+# Tested with Python 3.12+ (developed on 3.13). Install: pip install -r requirements.txt
+# Lower bounds are the versions the lesson code was executed against.
+
+# Core
+pydantic>=2.11,<3
+httpx>=0.28,<1
+openai>=3,<4            # used only as an HTTP client for OpenAI-compatible endpoints
+numpy>=2,<3
+
+# Service layer (Days 12, 24, capstone)
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+
+# Data stores (Days 6, 8-10, 23)
+psycopg[binary]>=3.2,<4
+pgvector>=0.4,<1
+redis>=5,<9
+
+# Protocols & orchestration (Days 11-14)
+mcp>=2.3,<3             # NOTE: 2.x renamed FastMCP -> MCPServer; see Day 11
+langgraph>=1.2,<2       # introduced only in Day 14, after the from-scratch version
+
+# Testing
+pytest>=8,<10
+pytest-asyncio>=1,<2
+fakeredis>=2.26,<3
+
+# Optional: exact OpenAI token counts (code falls back to an estimate without it)
+# tiktoken>=0.9
