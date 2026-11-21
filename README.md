@@ -21,7 +21,7 @@ Each lesson is roughly 30-45 minutes and follows the same 15-section structure: 
 The table below is generated from the files in `lessons/` by `scripts/curriculum.py`, so a lesson is linked only once it exists.
 
 <!-- curriculum:begin -->
-**3 of 28 lessons published.**
+**4 of 28 lessons published.**
 
 ### Foundations
 
@@ -30,7 +30,7 @@ The table below is generated from the files in `lessons/` by `scripts/curriculum
 | 1 | [LLM APIs, messages, tokens, and structured outputs](lessons/day-01-llm-apis-and-structured-outputs.md) | published |
 | 2 | [Function calling and tool execution](lessons/day-02-tool-calling-and-function-execution.md) | published |
 | 3 | [Agent loops, ReAct, and autonomous execution](lessons/day-03-agent-loops-and-react.md) | published |
-| 4 | Planning, task decomposition, and dependency management | planned |
+| 4 | [Planning, task decomposition, and dependency management](lessons/day-04-planning-and-task-decomposition.md) | published |
 | 5 | Agent state, checkpoints, and execution lifecycle | planned |
 | 6 | Short-term memory and long-term memory | planned |
 | 7 | Context engineering, token budgets, and conversation management | planned |
